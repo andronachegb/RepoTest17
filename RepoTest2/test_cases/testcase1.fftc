@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
-<testCase version="8.4.0.202012071239">
+<testCase version="8.6.0.202107090704">
     <general>
         <language>Python</language>
     </general>
-    <testbed>project://RepoTest2/topologies/top1.tbml</testbed>
+    <testbed>project://RepoTest17/topologies/top1.tbml</testbed>
     <procedures>
         <item name="main">
             <steps>
@@ -21,7 +21,7 @@
                 </item>
                 <item guid="b1708ace-df8d-4913-8bdf-96b6fc0da959" action="open" session="s1">
                     <command>
-                        <body>project://RepoTest2/session_profiles/REST.ffsp</body>
+                        <body>project://RepoTest17/session_profiles/REST.ffsp</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.OpenStepPropertyGroup">
                         <stepProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
@@ -87,7 +87,7 @@
                 </item>
                 <item guid="f46fccbc-9913-409f-8d8e-19075a43930f" action="open" session="s2" useFieldsInCommand="false">
                     <command>
-                        <body>project://RepoTest1/session_profiles/REST.ffsp</body>
+                        <body>project://RepoTest17/session_profiles/REST.ffsp</body>
                     </command>
                     <applicationProperties type="com.fnfr.svt.documents.OpenStepPropertyGroup">
                         <stepProperties type="com.fnfr.svt.documents.EmptyPropertyGroup"/>
